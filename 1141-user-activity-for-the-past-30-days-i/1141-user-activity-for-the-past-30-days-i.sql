@@ -1,0 +1,2 @@
+/* Write your PL/SQL query statement below */
+select To_char(activity_date, 'YYYY-MM-DD') as day, count(distinct user_id) as active_users from Activity where (activity_date Between To_Date('2019-06-28', 'YYYY-MM-DD') and To_Date('2019-07-28', 'YYYY-MM-DD')) group by activity_date;
