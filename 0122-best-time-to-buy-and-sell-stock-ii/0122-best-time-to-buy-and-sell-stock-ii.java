@@ -1,41 +1,61 @@
+// Memoization
 // class Solution {
+//     public int maxProf(int idx, int buy, int n, int[] prices, int[][] dp) {
+//         if(idx == n) return 0;
+        
+//         if(dp[idx][buy] != -1) return dp[idx][buy];
+
+//         // when we can buy a stock
+//         int profit = 0; 
+//         if(buy == 1) {
+//             profit = Math.max(-prices[idx] + maxProf(idx+1, 0, n, prices, dp), 
+//                                maxProf(idx+1, 1, n, prices, dp));
+//         }
+//         else {
+//             profit = Math.max(prices[idx] + maxProf(idx, 1, n, prices, dp), 
+//                               maxProf(idx+1, 0, n, prices, dp));
+//         }
+//         return dp[idx][buy] = profit;
+//     }
+//
 //     public int maxProfit(int[] prices) {
-//         int p = 0;
-//         int q = 0;
-//         int max = 0;
 //         int n = prices.length;
-//         for(int i=0; i<n-1; i++) {
-//             if(prices[i] > prices[i+1]) {
-//                 max += prices[i] - prices[p];
-//                 p = i+1;
-//             }
-//             else {
-//                 q = i+1;
-//             }
+//         int buy = 1;
+//         int[][] dp = new int[n][2];
+
+//         for(int i=0; i<n; i++) {
+//             Arrays.fill(dp[i], -1);
 //         }
-//         if(max == 0) {
-//             max = prices[q] - prices[0];
-//         }
-//         return max;
+
+//         return maxProf(0, buy, n, prices, dp);
 //     }
 // }
 
+
+
+
+// Tabulation
 class Solution {
     public int maxProfit(int[] prices) {
         int n = prices.length;
-        int p = 0;
-        int q = 1;
-        int sum = 0;
-        while(p < n && q < n) {
-            if(prices[p] < prices[q]) {
-                sum += prices[q] - prices[p];
+        int buy = 1;
+        int[][] dp = new int[n+1][2];
+
+        dp[n][0] = dp[n][1] = 0;
+
+        for(int i=n-1; i>=0; i--) {
+            for(int b=0; b<2; b++) {
+                int profit = 0;
+                if(b == 1) {
+                    profit = Math.max(-prices[i] + dp[i+1][0], 0 + dp[i+1][1]);
+                }
+                else {
+                    profit = Math.max(prices[i] + dp[i+1][1], 0 + dp[i+1][0]);
+                }
+                dp[i][b] = profit;
             }
-            else {
-                // do nothing
-            }
-            p++;
-            q++;
         }
-        return sum;
+
+        return dp[0][1];
     }
 }
