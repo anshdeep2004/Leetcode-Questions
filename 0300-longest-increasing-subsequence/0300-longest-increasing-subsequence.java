@@ -27,22 +27,46 @@
 
 
 // Tabulation
+// class Solution {
+//     public int lengthOfLIS(int[] nums) {
+//         int n = nums.length;
+//         int[][] dp = new int[n+1][n+1];
+
+//         for(int idx=n-1; idx>=0; idx--) {
+//             for(int prevIdx=idx-1; prevIdx>=-1; prevIdx--) {
+//                 int lenNotTake = 0 + dp[idx+1][prevIdx+1];
+//                 int lenTake = 0;
+//                 if(prevIdx == -1 || nums[idx] > nums[prevIdx]) {
+//                     lenTake = 1 + dp[idx+1][idx+1];
+//                 }
+//                 dp[idx][prevIdx+1] = Math.max(lenTake, lenNotTake);
+//             }
+//         }
+
+//         return dp[0][-1+1];
+//     }
+// }
+
+
+// Space optimisation
 class Solution {
     public int lengthOfLIS(int[] nums) {
-        int n = nums.length;
-        int[][] dp = new int[n+1][n+1];
+    int n = nums.length;
+        int[] nextRow = new int[n+1];
+        int[] currRow = new int[n+1];
 
         for(int idx=n-1; idx>=0; idx--) {
             for(int prevIdx=idx-1; prevIdx>=-1; prevIdx--) {
-                int lenNotTake = 0 + dp[idx+1][prevIdx+1];
+                int lenNotTake = 0 + nextRow[prevIdx+1];
                 int lenTake = 0;
                 if(prevIdx == -1 || nums[idx] > nums[prevIdx]) {
-                    lenTake = 1 + dp[idx+1][idx+1];
+                    lenTake = 1 + nextRow[idx+1];
                 }
-                dp[idx][prevIdx+1] = Math.max(lenTake, lenNotTake);
+                currRow[prevIdx+1] = Math.max(lenTake, lenNotTake);
             }
+            nextRow = Arrays.copyOf(currRow, currRow.length);
         }
 
-        return dp[0][-1+1];
+        return nextRow[-1+1]; // nextRow[0];
     }
 }
