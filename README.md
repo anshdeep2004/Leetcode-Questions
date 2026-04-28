@@ -7,6 +7,7 @@ Contains different leetcode questions solved by anshdeep24092004
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0198-house-robber](https://github.com/anshdeep2004/Leetcode-Questions/tree/main/0198-house-robber/) | Medium |
+| [0213-house-robber-ii](https://github.com/anshdeep2004/Leetcode-Questions/tree/main/0213-house-robber-ii/) | Medium |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/anshdeep2004/Leetcode-Questions/tree/main/2452-words-within-two-edits-of-dictionary/) | Medium |
 ## String
 | Problem Name | Difficulty |
@@ -25,6 +26,7 @@ Contains different leetcode questions solved by anshdeep24092004
 | ------- | ------- |
 | [0070-climbing-stairs](https://github.com/anshdeep2004/Leetcode-Questions/tree/main/0070-climbing-stairs/) | Easy |
 | [0198-house-robber](https://github.com/anshdeep2004/Leetcode-Questions/tree/main/0198-house-robber/) | Medium |
+| [0213-house-robber-ii](https://github.com/anshdeep2004/Leetcode-Questions/tree/main/0213-house-robber-ii/) | Medium |
 ## Memoization
 | Problem Name | Difficulty |
 | ------- | ------- |
