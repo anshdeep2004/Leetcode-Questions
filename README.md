@@ -8,6 +8,7 @@ Contains different leetcode questions solved by anshdeep24092004
 | ------- | ------- |
 | [0063-unique-paths-ii](https://github.com/anshdeep2004/Leetcode-Questions/tree/main/0063-unique-paths-ii/) | Medium |
 | [0064-minimum-path-sum](https://github.com/anshdeep2004/Leetcode-Questions/tree/main/0064-minimum-path-sum/) | Medium |
+| [0120-triangle](https://github.com/anshdeep2004/Leetcode-Questions/tree/main/0120-triangle/) | Medium |
 | [0198-house-robber](https://github.com/anshdeep2004/Leetcode-Questions/tree/main/0198-house-robber/) | Medium |
 | [0213-house-robber-ii](https://github.com/anshdeep2004/Leetcode-Questions/tree/main/0213-house-robber-ii/) | Medium |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/anshdeep2004/Leetcode-Questions/tree/main/2452-words-within-two-edits-of-dictionary/) | Medium |
@@ -31,6 +32,7 @@ Contains different leetcode questions solved by anshdeep24092004
 | [0063-unique-paths-ii](https://github.com/anshdeep2004/Leetcode-Questions/tree/main/0063-unique-paths-ii/) | Medium |
 | [0064-minimum-path-sum](https://github.com/anshdeep2004/Leetcode-Questions/tree/main/0064-minimum-path-sum/) | Medium |
 | [0070-climbing-stairs](https://github.com/anshdeep2004/Leetcode-Questions/tree/main/0070-climbing-stairs/) | Easy |
+| [0120-triangle](https://github.com/anshdeep2004/Leetcode-Questions/tree/main/0120-triangle/) | Medium |
 | [0198-house-robber](https://github.com/anshdeep2004/Leetcode-Questions/tree/main/0198-house-robber/) | Medium |
 | [0213-house-robber-ii](https://github.com/anshdeep2004/Leetcode-Questions/tree/main/0213-house-robber-ii/) | Medium |
 ## Memoization
