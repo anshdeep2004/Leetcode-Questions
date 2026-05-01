@@ -12,6 +12,7 @@ Contains different leetcode questions solved by anshdeep24092004
 | [0198-house-robber](https://github.com/anshdeep2004/Leetcode-Questions/tree/main/0198-house-robber/) | Medium |
 | [0213-house-robber-ii](https://github.com/anshdeep2004/Leetcode-Questions/tree/main/0213-house-robber-ii/) | Medium |
 | [0416-partition-equal-subset-sum](https://github.com/anshdeep2004/Leetcode-Questions/tree/main/0416-partition-equal-subset-sum/) | Medium |
+| [0455-assign-cookies](https://github.com/anshdeep2004/Leetcode-Questions/tree/main/0455-assign-cookies/) | Easy |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/anshdeep2004/Leetcode-Questions/tree/main/2452-words-within-two-edits-of-dictionary/) | Medium |
 ## String
 | Problem Name | Difficulty |
@@ -50,4 +51,16 @@ Contains different leetcode questions solved by anshdeep24092004
 | ------- | ------- |
 | [0063-unique-paths-ii](https://github.com/anshdeep2004/Leetcode-Questions/tree/main/0063-unique-paths-ii/) | Medium |
 | [0064-minimum-path-sum](https://github.com/anshdeep2004/Leetcode-Questions/tree/main/0064-minimum-path-sum/) | Medium |
+## Two Pointers
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0455-assign-cookies](https://github.com/anshdeep2004/Leetcode-Questions/tree/main/0455-assign-cookies/) | Easy |
+## Greedy
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0455-assign-cookies](https://github.com/anshdeep2004/Leetcode-Questions/tree/main/0455-assign-cookies/) | Easy |
+## Sorting
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0455-assign-cookies](https://github.com/anshdeep2004/Leetcode-Questions/tree/main/0455-assign-cookies/) | Easy |
 <!---LeetCode Topics End-->
