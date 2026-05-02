@@ -11,6 +11,7 @@ Contains different leetcode questions solved by anshdeep24092004
 | [0120-triangle](https://github.com/anshdeep2004/Leetcode-Questions/tree/main/0120-triangle/) | Medium |
 | [0198-house-robber](https://github.com/anshdeep2004/Leetcode-Questions/tree/main/0198-house-robber/) | Medium |
 | [0213-house-robber-ii](https://github.com/anshdeep2004/Leetcode-Questions/tree/main/0213-house-robber-ii/) | Medium |
+| [0322-coin-change](https://github.com/anshdeep2004/Leetcode-Questions/tree/main/0322-coin-change/) | Medium |
 | [0416-partition-equal-subset-sum](https://github.com/anshdeep2004/Leetcode-Questions/tree/main/0416-partition-equal-subset-sum/) | Medium |
 | [0455-assign-cookies](https://github.com/anshdeep2004/Leetcode-Questions/tree/main/0455-assign-cookies/) | Easy |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/anshdeep2004/Leetcode-Questions/tree/main/2452-words-within-two-edits-of-dictionary/) | Medium |
@@ -37,6 +38,7 @@ Contains different leetcode questions solved by anshdeep24092004
 | [0120-triangle](https://github.com/anshdeep2004/Leetcode-Questions/tree/main/0120-triangle/) | Medium |
 | [0198-house-robber](https://github.com/anshdeep2004/Leetcode-Questions/tree/main/0198-house-robber/) | Medium |
 | [0213-house-robber-ii](https://github.com/anshdeep2004/Leetcode-Questions/tree/main/0213-house-robber-ii/) | Medium |
+| [0322-coin-change](https://github.com/anshdeep2004/Leetcode-Questions/tree/main/0322-coin-change/) | Medium |
 | [0416-partition-equal-subset-sum](https://github.com/anshdeep2004/Leetcode-Questions/tree/main/0416-partition-equal-subset-sum/) | Medium |
 ## Memoization
 | Problem Name | Difficulty |
@@ -63,4 +65,8 @@ Contains different leetcode questions solved by anshdeep24092004
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0455-assign-cookies](https://github.com/anshdeep2004/Leetcode-Questions/tree/main/0455-assign-cookies/) | Easy |
+## Breadth-First Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0322-coin-change](https://github.com/anshdeep2004/Leetcode-Questions/tree/main/0322-coin-change/) | Medium |
 <!---LeetCode Topics End-->
