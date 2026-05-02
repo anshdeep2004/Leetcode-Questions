@@ -14,6 +14,7 @@ Contains different leetcode questions solved by anshdeep24092004
 | [0322-coin-change](https://github.com/anshdeep2004/Leetcode-Questions/tree/main/0322-coin-change/) | Medium |
 | [0416-partition-equal-subset-sum](https://github.com/anshdeep2004/Leetcode-Questions/tree/main/0416-partition-equal-subset-sum/) | Medium |
 | [0455-assign-cookies](https://github.com/anshdeep2004/Leetcode-Questions/tree/main/0455-assign-cookies/) | Easy |
+| [0494-target-sum](https://github.com/anshdeep2004/Leetcode-Questions/tree/main/0494-target-sum/) | Medium |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/anshdeep2004/Leetcode-Questions/tree/main/2452-words-within-two-edits-of-dictionary/) | Medium |
 ## String
 | Problem Name | Difficulty |
@@ -40,6 +41,7 @@ Contains different leetcode questions solved by anshdeep24092004
 | [0213-house-robber-ii](https://github.com/anshdeep2004/Leetcode-Questions/tree/main/0213-house-robber-ii/) | Medium |
 | [0322-coin-change](https://github.com/anshdeep2004/Leetcode-Questions/tree/main/0322-coin-change/) | Medium |
 | [0416-partition-equal-subset-sum](https://github.com/anshdeep2004/Leetcode-Questions/tree/main/0416-partition-equal-subset-sum/) | Medium |
+| [0494-target-sum](https://github.com/anshdeep2004/Leetcode-Questions/tree/main/0494-target-sum/) | Medium |
 ## Memoization
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -69,4 +71,8 @@ Contains different leetcode questions solved by anshdeep24092004
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0322-coin-change](https://github.com/anshdeep2004/Leetcode-Questions/tree/main/0322-coin-change/) | Medium |
+## Backtracking
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0494-target-sum](https://github.com/anshdeep2004/Leetcode-Questions/tree/main/0494-target-sum/) | Medium |
 <!---LeetCode Topics End-->
